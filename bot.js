@@ -88,6 +88,5 @@ bot.on("error", error => {
 	console.log(error);
 });
 
-bot.login(botSettings.token);
-
+client.login(process.env.BOT_TOKEN); 
 //SHIFT ALT F to format
